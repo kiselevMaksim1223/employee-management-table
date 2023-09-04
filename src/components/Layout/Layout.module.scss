@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 5px;
+    width: max-content;
+    background-color: #313131;
+    border: 1px solid dimgray;
+    border-radius: 5px;
+    padding: 5px;
+    color: #a6a6a6;
+}
+
+.wrapper.light {
+    background-color: #fff;
+    color: #3c3c3c;
+}
+
+.wrapper.light {
+    .wrapperYala {
+        border-color: #CCCCCC;
+    }
+    .wrapperList {
+        border-color: #CCCCCC;
+    }
+}
+
+
+.wrapper.light .button {
+    background: #CCCCCC;
+    color: #3c3c3c;
+
+    &:hover {
+        background: #a8a8a8;
+    }
+}
+
+.wrapper.light .input {
+    color: #3c3c3c;
+    border-color: #CCCCCC;
+}
+
+.wrapper.light .select {
+    color: #3c3c3c;
+    border-color: #CCCCCC;
+
+    & option {
+        background: #CCCCCC;
+    }
+}
+
+.wrapper.light .table th {
+    background: #CCCCCC;
+}
+
+.wrapper.light {
+    .row {
+
+        &:hover {
+            background: #CCCCCC;
+        }
+
+        &.active {
+            background: #217244;
+            color: #a6a6a6;
+        }
+    }
+}
