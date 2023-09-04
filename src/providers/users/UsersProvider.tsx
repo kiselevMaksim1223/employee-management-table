@@ -3,29 +3,7 @@ import { getInitState } from '../helpers/getInitState.ts';
 import { IUserFormData, IUsersContext, IUser } from './types.ts';
 import { generateId } from '../helpers/generateId.ts';
 
-const initialState: IUser[] = [
-  {
-    id: generateId(),
-    name: 'qweqr qwwe',
-    age: 33,
-    subscription: 'Other',
-    isEmployed: true,
-  },
-  {
-    id: generateId(),
-    name: 'cxzc xcz',
-    age: 33,
-    subscription: 'Subscribed',
-    isEmployed: true,
-  },
-  {
-    id: generateId(),
-    name: 'ghfgh gfhgf',
-    age: 33,
-    subscription: 'Not subscribed',
-    isEmployed: false,
-  },
-];
+const initialState: IUser[] = [];
 
 export const UsersContext = createContext<IUsersContext>({
   usersList: initialState,
