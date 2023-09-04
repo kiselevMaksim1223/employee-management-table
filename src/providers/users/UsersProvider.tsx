@@ -3,7 +3,134 @@ import { getInitState } from '../helpers/getInitState.ts';
 import { IUserFormData, IUsersContext, IUser } from './types.ts';
 import { generateId } from '../helpers/generateId.ts';
 
-const initialState: IUser[] = [];
+const initialState: IUser[] = [
+  {
+    id: 'id_1693843360731',
+    name: 'sadsad asdsa',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843362579',
+    name: 'dsad asdasd',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843364390',
+    name: 'dsadasdsad assa',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843380081',
+    name: 'dsadsad sadas',
+    age: 33,
+    subscription: 'Subscribed',
+    isEmployed: true,
+  },
+  {
+    id: 'id_1693843402960',
+    name: 'das dasdas',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843404428',
+    name: 'dsad asd',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843405620',
+    name: 'dsad asdas',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843406972',
+    name: 'dsa dasdas',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843408200',
+    name: 'dsa dasd as',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843409413',
+    name: 'dsa dasd as',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843411491',
+    name: 'd sad asd ',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843413173',
+    name: ' dsad as ',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843414375',
+    name: 'd sad asd as',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843415743',
+    name: 'd sad as ',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843418874',
+    name: 'dsa as as',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843420684',
+    name: 'd sa as as',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843421864',
+    name: 'd sa sa as',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+  {
+    id: 'id_1693843422984',
+    name: ' dsa dasd ',
+    age: 18,
+    subscription: 'Not subscribed',
+    isEmployed: false,
+  },
+];
 
 export const UsersContext = createContext<IUsersContext>({
   usersList: initialState,
