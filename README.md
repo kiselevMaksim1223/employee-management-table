@@ -1,27 +1,58 @@
-# React + TypeScript + Vite
+# Employee Management Table
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Employee Management Table is a user-friendly application designed for efficient employee record management. Built using cutting-edge technologies like React, TypeScript, SCSS, Vite, ESLint, and Prettier, this app provides a seamless experience for handling employee data. Its intuitive interface allows users to effortlessly add new employees and edit existing records within the table.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Employee Data Management: Easily add new employees to the table.
+Edit Existing Records: Effortlessly modify and update employee information.
+User-Friendly Interface: Intuitive design for a smooth user experience.
+Technology Stack: Leveraging the power of React, TypeScript, SCSS, Vite, ESLint, and Prettier for a robust and efficient application.
 
-## Expanding the ESLint configuration
+## Deploy version
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+You can see the demo on https://employee-management-table.netlify.app/
 
-- Configure the top-level `parserOptions` property like this:
+## Local Setup
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+### Prerequisites
+
+Before running the application, make sure you have the following dependencies installed on your system:
+
+- [Node.js](https://nodejs.org/) (npm will be installed alongside Node.js)
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/kiselevMaksim1223/employee-management-table
+
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd employee-management-table
+
+   ```
+
+3. Install the project dependencies:
+
+   ```bash
+   npm install
+
+   ```
+
+## Running the Application
+
+After instaling all dependencies, you can run the application:
+
+Start the development server:
+
+```bash
+npm run dev
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Access the application in your web browser at http://localhost:5173.
